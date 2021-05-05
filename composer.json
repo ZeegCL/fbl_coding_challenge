@@ -1,0 +1,21 @@
+{
+    "name": "zeegcl/falabella_challenge",
+    "description": "Coding challenge for the backend developer position at Falabella.",
+    "type": "project",
+    "license": "GNU GPLv3",
+    "authors": [
+        {
+            "name": "José González Asenjo",
+            "email": "jobs.jigonzalez@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodingChallenge\\": "src/",
+            "CodingChallenge\\Filters\\": "src/filters/"
+        }
+    }
+}
